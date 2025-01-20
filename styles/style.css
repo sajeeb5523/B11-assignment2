@@ -66,3 +66,46 @@
     font-size: 1.25rem;
     font-weight: 500;
 }
+
+.menu_toogle{
+    display: none;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .brand,
+    .link_div,
+    .btn_primary{
+        display: none;
+    }
+    .menu_toogle{
+        display: block;
+        margin-right: 12px;
+    }
+    .brand_img{
+        height: 40px;
+        width: 40px;
+        margin-left: 12px;
+    }
+    .navbar{
+        border: 1px solid #FEA301;
+        justify-content: space-between;
+        padding: 5px;
+    }
+}
