@@ -82,7 +82,6 @@
     margin-left: 50px;
     justify-content: space-around;
     margin-bottom: 60px;
-    border: 3px dotted darkblue;
 }
 .banneer_content{
     margin-top: 120px;
@@ -122,7 +121,6 @@
 /* curriculum section styles */
 .sc{
     background-image: url(../assets/bg.png);
-    border: 3px dotted darkblue;
 }
 .sc_heading{
     font-size: 2.8rem;
@@ -136,7 +134,6 @@
     justify-content: space-around;
     text-align: center;
     margin-bottom: 80px;
-    border: 3px dotted darkblue;
 }
 .sc_img{
     width: 137px;
@@ -149,13 +146,26 @@
 }
 .sc_description{
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 33px;
     color: #808080;
     padding: 0px 40px;
 }
+.sc_btn1, .sc_btn2, .sc_btn3{
+    margin-bottom: 53px;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+}
 .sc_btn1{
-    margin-bottom: 59px;
+    color: #64C8FF;
+}
+.sc_btn2{
+    color: #F0AA00;
+}
+.sc_btn3{
+    color: #8700FF;
 }
 .box1{
     box-shadow: #DEF5FF;
@@ -181,16 +191,12 @@
     width: 367px;
     height: 476px;
 }
-.sc_icon img{
+.sc_icon div {
     height: 60px;
     width: 60px;
-    margin-left: auto 0;
-    filter: invert(orange);
     gap: 10px;
-    
+    margin: 0 auto 60px auto;
 }
- 
-
 
 
 
@@ -204,7 +210,8 @@
     /* navbar styles */
     .brand,
     .link_div,
-    .btn_primary{
+    .btn_primary,
+    .sc_icon{
         display: none;
     }
     .menu_toogle{
@@ -236,4 +243,20 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
+     /* curriculum section */
+     .sc_heading{
+        margin-top: 60px;
+        text-align: center;
+        margin-bottom: 20px;
+     }
+     .curriculum{
+        flex-direction: column;
+        align-items: center;
+        margin: 2px auto;
+        width: 357px;
+        height: 324px;
+        margin-bottom: 20px;
+     }
+    
 }
