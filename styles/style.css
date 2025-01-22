@@ -198,6 +198,10 @@
     margin: 0 auto 60px auto;
 }
 
+.icons:hover{
+    background-color: blueviolet;
+}
+
 
 
 /* stories section  */
@@ -346,6 +350,9 @@ footer{
     font-size: 2.6rem;
     width: 206px;
     height: 79px;
+}
+.middle{
+    margin-left: 10px;
 }
 
 .footer_description{
